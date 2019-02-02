@@ -16,6 +16,7 @@ Call and delete the function:
 ```sh
 # Invoke the function
 kubeless function call typicode
+{"userId":1,"id":1,"title":"delectus aut autem","completed":false}
 
 # Clean up
 kubeless function delete typicode
