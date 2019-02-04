@@ -1,0 +1,13 @@
+service: capitalise
+
+provider:
+  name: kubeless
+  runtime: nodejs6
+
+plugins:
+  - serverless-kubeless
+
+functions:
+  capitalise:
+    description: "Hello function"
+    handler: handler.capitalise
